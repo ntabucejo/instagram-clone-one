@@ -2,8 +2,8 @@ import Navbar from '../navbar'
 
 const Header = () => {
   return (
-    <header>
-      <div>
+    <header className="bg-white shadow-lg">
+      <div className="max-w-5xl mx-auto">
         <Navbar />
       </div>
     </header>
