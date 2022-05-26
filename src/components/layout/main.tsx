@@ -5,7 +5,7 @@ interface IProps {
 const Main = ({ children }: IProps) => {
   return (
     <main className="bg-gray-200">
-      <div>{children}</div>
+      <div className="max-w-4xl mx-auto">{children}</div>
     </main>
   )
 }

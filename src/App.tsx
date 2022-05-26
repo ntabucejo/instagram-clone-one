@@ -1,9 +1,10 @@
 import Layout from './components/layout'
+import Story from './components/Story'
 
 const App = () => {
   return (
     <Layout>
-      <section>w</section>
+      <Story />
     </Layout>
   )
 }
