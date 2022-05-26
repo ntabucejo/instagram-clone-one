@@ -7,7 +7,7 @@ import Profile from './profile'
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-5 h-16 gap-5">
+    <nav className="flex items-center justify-between px-5 h-14 gap-5">
       <Logo />
       <Searchbar />
       <div className='flex items-center gap-5'>
