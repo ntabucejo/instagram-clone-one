@@ -1,5 +1,5 @@
 const Post = () => {
-  return <div className="container">Post</div>
+  return <div className="card">Post</div>
 }
 
 export default Post
