@@ -7,7 +7,7 @@ const App = () => {
   return (
     <Layout>
       <div className="space-y-3 lg:mx-0">
-        {/* <StoryBoard /> */}
+        <StoryBoard />
         <Feed />
       </div>
       <Panel />
