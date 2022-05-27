@@ -6,7 +6,7 @@ import StoryBoard from './components/story-board'
 const App = () => {
   return (
     <Layout>
-      <div className="lg:flex-grow space-y-3 mx-auto">
+      <div className="space-y-3 lg:mx-0">
         <StoryBoard />
         <Feed />
       </div>
