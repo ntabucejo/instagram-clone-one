@@ -1,6 +1,6 @@
 import stories from '../../library/data/stories'
 import IStory from '../../library/schemas/interfaces/story'
-import Story from './people'
+import Story from './story'
 
 const StoryBoard = () => {
   return (
