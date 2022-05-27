@@ -4,7 +4,7 @@ import Story from './story'
 
 const StoryBoard = () => {
   return (
-    <section className="card flex gap-4 overflow-x-scroll scrollbar-hide">
+    <section className="card md:flex gap-4 overflow-x-scroll scrollbar-hide hidden">
       {stories.map((story: IStory) => {
         let username = story.username.split(' ').join('').toLowerCase()
         username = username.length <= 10 ? username : `${username.slice(0, 8)}...`
