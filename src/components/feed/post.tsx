@@ -12,12 +12,12 @@ const Post = ({ post }: IProps) => {
       {/* Heading */}
       <div className="flex justify-between items-center">
         <div className="flex gap-3 items-center -m-2">
-          <div className="w-8 h-8 overflow-hidden rounded-full">
+          <div className="w-8 h-8 overflow-hidden rounded-full cursor-pointer">
             <img className="w-full" src={post.profile} alt={post.profile} />
           </div>
           <h2 className=" font-semibold">{post.username}</h2>
         </div>
-        <DotsHorizontalIcon className="w-5 h-5" />
+        <DotsHorizontalIcon className="w-5 h-5 cursor-pointer" />
       </div>
       {/* Posted Image */}
       <div className="relative -mx-5 aspect-square overflow-hidden">
