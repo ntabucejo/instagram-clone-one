@@ -8,8 +8,8 @@ interface IProps {
 const Person = ({ person }: IProps) => {
   return (
     <div className="flex justify-between items-center">
-      <div className='flex gap-2 items-center'>
-        <div className="rounded-full overflow-hidden w-10 h-10">
+      <div className='flex gap-3 items-center'>
+        <div className="rounded-full overflow-hidden w-8 h-8">
           <img className="w-full" src={person.image} alt={person.username} />
         </div>
 

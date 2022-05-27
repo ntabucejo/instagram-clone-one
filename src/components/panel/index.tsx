@@ -5,7 +5,7 @@ import Person from './person'
 
 const Panel = () => {
   return (
-    <section className="w-[300px] hidden lg:block lg:fixed ml-[465px] space-y-4 pt-4 ">
+    <section className="w-[22rem] hidden lg:block lg:fixed ml-[30.5rem] space-y-4 pt-4 px-4">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-4">
           <div className="rounded-full overflow-hidden w-16 h-16 ">
