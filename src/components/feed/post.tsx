@@ -1,8 +1,9 @@
 import { DotsHorizontalIcon } from '@heroicons/react/outline'
+import IPost from '../../library/schemas/interfaces/post'
 import { BookmarkIcon, EmojiCollection, HeartIcon, MessageIcon, ShareIcon } from './icons'
 
 interface IProps {
-  post: any
+  post: IPost
 }
 
 const Post = ({ post }: IProps) => {

@@ -3,7 +3,7 @@ interface IProps {
   image: string
 }
 
-const People = ({ username, image }: IProps) => {
+const Story = ({ username, image }: IProps) => {
   return (
       <div className="flex flex-col justify-between items-center gap-2 cursor-pointer">
         <div className="rounded-full overflow-hidden w-16 h-16 bg-gradient-to-r from-yellow-500 to-pink-500 p-1">
@@ -16,4 +16,4 @@ const People = ({ username, image }: IProps) => {
   )
 }
 
-export default People
+export default Story
