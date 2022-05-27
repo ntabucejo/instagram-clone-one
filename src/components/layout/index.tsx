@@ -7,7 +7,7 @@ interface IProps {
 
 const Layout = ({ children }: IProps) => {
   return (
-    <div className='min-h-screen grid grid-rows-[auto,1fr] gap-5'>
+    <div className='min-h-screen space-y-5'>
       <Header />
       <Main>{children}</Main>
     </div>
