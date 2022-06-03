@@ -1,6 +1,6 @@
 # Instagram Clone One
 
-A fully responsive frontend [Instagram](https://instagram-clone-one.ntabucejo.vercel.app/) Clone.
+A fully responsive frontend [Instagram](https://instagram-clone-one.ntabucejo.vercel.app/) clone.
 
 ## Strategies 
 
