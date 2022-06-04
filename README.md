@@ -1,7 +1,81 @@
 # Instagram Clone One
 
-This build I showcase how to use complex css rules like positioning, grids, flex and other layout rule combination, with the help of tailwindcss as my choice of css framework. This instagram clone is build on top of a javascript library called reactjs.
+A fully responsive frontend [Instagram](https://instagram-clone-one.ntabucejo.vercel.app/) clone.
 
-<img src="https://github.com/ntabucejo/instagram-clone-one/blob/main/src/assets/screenshots/desktop-1.png?raw=true"  alt="Landing Page">
+## Strategies 
 
-<img src="https://github.com/ntabucejo/instagram-clone-one/blob/main/src/assets/screenshots/desktop-2.png?raw=true" alt="Landing Page">
+* CSS Flexbox
+* CSS Grid
+* CSS (Fixed / Sticky / Absolute) Positions
+* Mobile First Approach
+
+## Techonologies
+
+<p align="left">
+  <img
+    align="center"
+    src="https://github.com/ntabucejo/ntabucejo/blob/main/icons/reactjs-icon.png?raw=true"
+    alt="reactjs"
+    height="40"
+    width="40"
+  />
+  <img
+    align="center"
+    src="https://github.com/ntabucejo/ntabucejo/blob/main/icons/tailwindcss-icon.png?raw=true"
+    alt="tailwindcss"
+    height="40"
+    width="40"
+  />
+  <img
+    align="center"
+    src="https://github.com/ntabucejo/ntabucejo/blob/main/icons/typescript-icon.png?raw=true"
+    alt="typescript"
+    height="40"
+    width="40"
+  />
+  <img
+    align="center"
+    src="https://github.com/ntabucejo/ntabucejo/blob/main/icons/javascript-icon.png?raw=true"
+    alt="javascript"
+    height="40"
+    width="40"
+  />
+  <img
+    align="center"
+    src="https://github.com/ntabucejo/ntabucejo/blob/main/icons/html5-icon.png?raw=true"
+    alt="html5"
+    height="40"
+    width="40"
+  />
+  <img
+    align="center"
+    src="https://github.com/ntabucejo/ntabucejo/blob/main/icons/css3-icon.png?raw=true"
+    alt="css3"
+    height="40"
+    width="40"
+  />
+   <img
+    align="center"
+    src="https://github.com/ntabucejo/ntabucejo/blob/main/icons/vitejs-icon.png?raw=true"
+    alt="vitejs"
+    height="40"
+    width="40"
+  />
+</p>
+
+## Screenshots
+
+![Desktop screenshot](https://github.com/ntabucejo/instagram-clone-one/blob/main/src/assets/screenshots/desktop-1.png?raw=true)
+![Desktop screenshot](https://github.com/ntabucejo/instagram-clone-one/blob/main/src/assets/screenshots/desktop-2.png?raw=true)
+
+## Demo
+
+Install all the project dependencies.
+```bash
+  npm install
+```
+
+Run the development server.
+```bash
+  npm run dev
+```
