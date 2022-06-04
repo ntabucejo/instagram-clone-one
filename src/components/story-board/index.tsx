@@ -1,5 +1,5 @@
-import stories from '../../library/data/stories'
-import IStory from '../../library/schemas/interfaces/story'
+import stories from '../../data/stories'
+import IStory from '../../schemas/story'
 import Story from './story'
 
 const StoryBoard = () => {

@@ -1,6 +1,12 @@
 import { DotsHorizontalIcon } from '@heroicons/react/outline'
-import IPost from '../../library/schemas/interfaces/post'
-import { BookmarkIcon, EmojiCollection, HeartIcon, MessageIcon, ShareIcon } from './icons'
+import IPost from '../../schemas/post'
+import {
+  BookmarkIcon,
+  EmojiCollection,
+  HeartIcon,
+  MessageIcon,
+  ShareIcon,
+} from './icons'
 
 interface IProps {
   post: IPost
@@ -45,7 +51,11 @@ const Post = ({ post }: IProps) => {
 
       <div className="flex gap-4">
         <EmojiCollection />
-        <input className="focus:outline-none w-full" type="text" placeholder="Add a comment" />
+        <input
+          className="focus:outline-none w-full"
+          type="text"
+          placeholder="Add a comment"
+        />
         <button className="text-blue-500">Post</button>
       </div>
     </div>

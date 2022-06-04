@@ -1,4 +1,4 @@
-import IPerson from '../../library/schemas/interfaces/person'
+import IPerson from '../../schemas/person'
 import Button from './button'
 
 interface IProps {

@@ -1,5 +1,5 @@
-import people from '../../library/data/people'
-import IPerson from '../../library/schemas/interfaces/person'
+import people from '../../data/people'
+import IPerson from '../../schemas/person'
 import Button from './button'
 import Person from './person'
 
